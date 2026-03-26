@@ -11,3 +11,7 @@ export function createCard(pokemon){
     return card;
 
 }
+export function GetInput(){
+    const CampoInput = document.getElementById('PokemonACercar')
+    return CampoInput.value
+}
